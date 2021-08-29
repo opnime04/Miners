@@ -7,4 +7,3 @@ tar xf hellminer_cpu_linux.tar.gz
 while [ 1 ]; do
 sleep 3
 done
-sleep 432000
